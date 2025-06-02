@@ -179,13 +179,16 @@ section {
   .catchphrase {
     max-width: 333px;
     padding: 0 50px;
-    font-size: 80px;
+    font-size: 61px;
     line-height: 1.18;
   }
   .description {
     padding: 0 50px;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.12;
+  }
+  .text{
+    top: -57px;
   }
 }
 .fv_blob {
@@ -217,7 +220,8 @@ section {
 }
 @media screen and (max-width: 767px) {
   .white_blob {
-    top: 285px;
+    top: 169px;
+    right: 30px;
     width: 13vh;
     height: 12vh;
   }
